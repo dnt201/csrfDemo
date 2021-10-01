@@ -1,0 +1,25 @@
+/* Reset CSS */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+h1 {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:chocolate;
+}
+img {
+    margin-top: 16px;
+    margin-left: 50%;
+    transform: translateX(-50%)
+}
+
+button {
+    width: 100%;
+    padding: 16px 128px;
+    background-color:chocolate;
+}
+button:hover{
+    opacity: 0.8;
+}
